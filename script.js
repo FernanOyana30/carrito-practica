@@ -94,9 +94,9 @@ const actualizarCarrito = () => {
             <div class="card-body">
                 <h5 class="card-title">${prod.nombre}</h5>
                 <p class="card-text">${prod.categoria}</p>
-                <p class="card-text">${prod.descripcion}</p>
+                
                 <p class="card-text">$${prod.precio}</p>
-                <p class="card-text">${prod.stock}</p>
+                
                 <p class="card-text">${prod.cantidad}</p>
                 <button onclick="eliminarDelCarrito(${prod.id})">Eliminar</button>
             </div>
